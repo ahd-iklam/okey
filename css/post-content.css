@@ -1,0 +1,291 @@
+/*
+=============================
+START STYLE STANDARD POST 
+=============================
+*/
+.main-post {
+    margin-bottom: 2rem;
+
+    border-radius: .8rem;
+    box-shadow: 8px 7px 6px #AEB7B3;
+}
+
+.main-post .post-title {
+    padding: 1.2rem;
+}
+
+.main-post .post-info {
+    padding-bottom: .8rem;
+    font-size: 17px;
+}
+
+.main-post .post-info .post-author {
+    padding-right: 4rem;
+}
+
+.main-post .post-info .post-author a {
+    color: #EFCB68;
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+
+.main-post .post-info .post-time a span {
+    color: #EFCB68;
+    font-weight: bold;
+    font-style: italic;
+    padding-right: .2rem;
+
+}
+
+.main-post .post-thumbnail {
+    width: 95%;
+    border-radius: .4rem;
+
+
+
+}
+
+.main-post .post-thumbnail img {
+    width: 80%;
+    height: 400px;
+    margin: .2rem auto;
+    transition: all 1s ease-in-out;
+}
+
+.main-post .post-thumbnail:hover img {
+    transform: scale(.9);
+}
+
+.main-post .post-content {
+    margin: 1rem 2rem;
+    box-shadow: 3px 2px 3px #EFCB68, -2px -1px 4px #EFCB68
+}
+
+.main-post .post-content:hover {
+    box-shadow: 6px 7px 4px #EFCB68, -4px -3px 4px #EFCB68
+}
+
+.main-post .post-content p {
+    font-size: 17px;
+    line-height: 1.9;
+    color: #000411;
+    width: 90%;
+    margin: 1rem auto;
+    font-family: Garamond serif;
+}
+
+.main-post .post-meta {
+    padding: 2rem;
+}
+
+.main-post .post-meta {
+    color: #000411;
+    font-size: 21px;
+}
+
+.main-post .post-meta .post-author a,
+.main-post .post-meta .post-comments a {
+    color: #EFCB68;
+    padding-left: .5rem;
+    font-size: 18px;
+    letter-spacing: .1rem;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.main-post .read-more {
+    padding: 2rem;
+}
+
+/*
+=============================
+START STYLE IMAGE POST FORMAT 
+=============================
+*/
+
+
+
+.image-format {
+    margin-top: .8rem;
+    width: 100%;
+    height: 300px;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    border-radius: 0;
+}
+
+.image-format i {
+    color: #ddd;
+}
+
+.image-format header .post-title h2 a {
+    padding: 1.2rem;
+    text-shadow: 5px 4px 7px #ddd;
+    color: #EFCB68;
+}
+
+.image-format .post-info {
+    padding-bottom: .8rem;
+    font-size: 17px;
+    font-weight: bolder;
+    color: #AEB7B3;
+}
+
+.image-format .post-content {
+    box-shadow: none;
+}
+
+.image-format .post-content p {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.image-format .post-meta {
+    padding-bottom: 3rem;
+}
+
+/*
+=============================
+START STYLE AUDIO POST FORMAT 
+=============================
+*/
+.audio-format {
+    background-image: url(../media/mainbg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    border-radius: .8rem;
+
+
+}
+
+.audio-format i {
+    color: #ddd;
+}
+
+.audio-format .post-thumbnail img {
+    height: auto;
+    margin-top: 1.4rem;
+
+}
+
+.audio-format .post-thumbnail:hover img {
+    transform: scale(1);
+}
+
+.audio-format .post-content {
+    margin: 1rem 2rem;
+    box-shadow: 6px 7px 4px #EFCB68, -4px -3px 4px #EFCB68;
+    margin-top: 4rem;
+}
+
+.audio-format .post-info {
+    color: #AEB7B3;
+}
+
+.audio-format {
+    margin-top: 1rem;
+}
+
+/*
+=============================
+START STYLE VIDEO POST FORMAT 
+=============================
+*/
+.video-format {
+    margin-top: 1rem;
+
+}
+
+.video-format .post-content {
+
+    box-shadow: none;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 2rem;
+
+}
+
+.video-format .post-content iframe {
+    width: 80%;
+    height: 400px;
+    margin: 2rem auto;
+    border-radius: .9rem;
+    border: 2px solid #ddd;
+}
+
+.load-icon i {
+    color: #EFCB68;
+    font-size: 24px;
+    transition: all 2s ease-in-out;
+    margin: .5rem;
+}
+
+.load-icon i:hover {
+    transform: rotate(360deg);
+}
+
+/*
+===========================
+START CONTACT PAGE
+===========================
+*/
+.contact-page {
+    background-color: #aeb7b33f;
+    color: #000411;
+    margin-top: 2rem;
+}
+
+.contact-page .post-content {
+    box-shadow: none;
+    width: 80%;
+    margin: .2rem auto;
+}
+
+.contact-page .post-title a {
+    color: #EFCB68;
+}
+
+.contact-page .post-content:hover {
+    box-shadow: none;
+}
+
+.contact-page .post-content .icon i {
+    font-size: 28px;
+    color: #EFCB68;
+    padding-bottom: .9rem;
+}
+
+.contact-page .post-content .contact-Form .form-group input {
+    border-bottom: 2px solid #EFCB68;
+    outline: none;
+    border-radius: .9rem;
+
+}
+
+.contact-page .post-content .contact-Form .form-group textarea {
+    padding-bottom: 2rem;
+    padding: .9rem;
+    resize: none;
+    width: 80%;
+    margin: 1.2rem auto;
+    border: 2px solid #EFCB68;
+    border-radius: .8rem;
+}
+
+.contact-page .post-content .contact-Form button {
+    text-align: center;
+}
+
+.contact-page .post-content .contact-Form button {
+    text-align: center;
+    margin-bottom: 2rem;
+    width: 100px;
+}
